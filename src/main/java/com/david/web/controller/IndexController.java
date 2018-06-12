@@ -6,6 +6,10 @@ package com.david.web.controller;
  * @github: https://github.com/QQ986945193
  */
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 /**
  * 首页转发controller
  */
@@ -13,7 +17,6 @@ package com.david.web.controller;
 public class IndexController {
 
     /**
-     *
      * 跳转至指定页面
      */
     @RequestMapping("go.do")

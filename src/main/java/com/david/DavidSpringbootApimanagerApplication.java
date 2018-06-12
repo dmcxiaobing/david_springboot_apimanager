@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DavidSpringbootApimanagerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DavidSpringbootApimanagerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DavidSpringbootApimanagerApplication.class, args);
+    }
 }
